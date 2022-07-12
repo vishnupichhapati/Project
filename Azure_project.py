@@ -30,29 +30,16 @@ st.sidebar.markdown('Face Api,Translator Api')
 
 app_mode = st.sidebar.radio(
     "",
-    ("About Me","Face Recognization","Object Detection","Translator"),
+    ("Face Recognization","Object Detection","Translator"),
 )
 
 
 st.write('<style>div.row-widget.stRadio > div{flex-direction:row;}</style>', unsafe_allow_html=True)
 
 st.sidebar.markdown('---')
-st.sidebar.write('N.V.Suresh Krishna | sureshkrishnanv24@gmail.com https://github.com/sureshkrishna123')
+st.sidebar.write('P.Vishnu Vardhan Reddy | pichhapativishnuvardhan@gmail.com https://github.com/vishnupichhapati')
 
-if app_mode =='About Me':
-    st.image('images/wp4498220.jpg', use_column_width=True)
-    st.markdown('''
-              # About Me \n 
-                Hey this is ** N.V.Suresh Krishna **. \n
-                
-                
-                Also check me out on Social Media
-                - [git-Hub](https://github.com/sureshkrishna123)
-                - [LinkedIn](https://www.linkedin.com/in/suresh-krishna-nv/)
-                - [Instagram](https://www.instagram.com/worldofsuresh._/)
-                - [Portfolio](https://sureshkrishna123.github.io/sureshportfolio/)\n
-                If you are interested in building more about Microsoft Azure then   [click here](https://azure.microsoft.com/en-in/)\n
-                ''')
+
                
 
 if app_mode=='Face Recognization':
